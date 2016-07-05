@@ -6,6 +6,8 @@ $(document).ready(function() {
     	}, 800);
 	});
 });
+
+
 $(document).ready(function() {
 	$("#edu-scroll").click(function() {
     	$('html, body').animate({
