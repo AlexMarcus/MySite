@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+
+
+<title>Alexander Marcus Home Page</title>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="jquery.localscroll.js" type="text/javascript"></script> 
+<script src="jquery.scrollTo.js" type="text/javascript"></script> 
+<script>
+	$(document).ready(function() {
+		$("#con-scroll").click(function() {
+	    	$('html, body').animate({
+	        	scrollTop: $("#contact").offset().top
+	    	}, 800);
+		});
+	});
+	$(document).ready(function() {
+		$("#edu-scroll").click(function() {
+	    	$('html, body').animate({
+	        	scrollTop: $("#education").offset().top
+	    	}, 1000);
+		});
+	});
+	$(document).ready(function() {
+		$("#we-scroll").click(function() {
+	    	$('html, body').animate({
+	        	scrollTop: $("#work-experience").offset().top
+	    	}, 1000);
+		});
+	});
+</script>
+<link rel="stylesheet" type="text/css" href="homepage_stye.css">
+</head>
+<body>
+	<div class = 'header-container'>
+		<img id = 'header-image' src="bing.png">
+		<h1 id='info' style="margin-top: 0">Alexander L. Marcus</h1>
+		<h2 id = 'info' style="margin: 20px 0">
+			89 Arnold Court
+			<br>
+			East Rockaway, NY, 11518 
+		</h2>
+		<p style="text-align: center; margin:0">
+			<a class = 'header-links' id = 'con-scroll'>Contact Information</a>	
+			<a class = 'header-links' id = 'edu-scroll'>Education</a>
+			<a class = 'header-links' id = 'we-scroll'>Work Experience</a>	
+		</p>
+	</div>
+	
+	<div class = 'container' id = 'contact'>
+		<h2 class = 'title' style = 'text-align: center'>
+			Contact Information
+		</h2>
+		<ul class = 'contact-list'>
+			<li>Email: Amarcus4@binghamton.edu</li>
+			<li>Phone: 516-660-7385</li>
+			<li><a target = '_blank' href="https://www.linkedin.com/in/alexander-marcus-a0a5a4b4" style="padding-right: 10px;">LinkedIn</a> <a href="Marcus_Alexander_resume_2016.pdf" download style="padding-left: 10px;">Resume</a></li>
+
+		</ul>
+	</div>
+
+	<div class = 'container' id = 'education'>
+		<h2 class = 'title' style = 'text-align: center'>
+				Education
+		</h2>
+		<div class = 'column' style="left: -20px">
+			<ul id = 'education-list' style="margin: 0">
+				<li id = 'education-list-element'>Lynbrook High School</li>
+				<li id = 'education-list-element'>Binghamton University, State University of New York - Watson School of Engineering</li>
+					<ul id = 'education-list-inner'>
+						<li>Bachelors of Science in Mechanical Engineering</li>
+						<li>Dean's List: Fall 2012 - Fall 2014 </li>
+					</ul>	
+				<li id = 'education-list-element'>Binghamton University, State University of New York - Graduate School of Computer Science</li>
+					<ul id = 'education-list-inner'>
+						<li>Masters of Science in Computer Science</li>
+					</ul>
+			</ul>
+		</div>
+		<div class = column style="right: 10px">
+			<ul class = 'dates' style="margin: 0">
+				<li>June 2012</li>
+				<li>May 2016</li>
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+				<li id = 'may-date-edu'>Expected May 2018</li>
+			</ul>
+		</div>
+	</div>
+	<div class = 'container' id = 'work-experience'>
+		<h2 class = 'title' style = 'text-align: center'>
+				Education
+		</h2>
+		<div class = 'column' style="left: -20px">
+			<ul id = 'education-list' style="margin: 0">
+				<li id = 'education-list-element'>Lynbrook High School</li>
+				<li id = 'education-list-element'>Binghamton University, State University of New York - Watson School of Engineering</li>
+					<ul id = 'education-list-inner'>
+						<li>Bachelors of Science in Mechanical Engineering</li>
+						<li>Dean's List: Fall 2012 - Fall 2014 </li>
+					</ul>	
+				<li id = 'education-list-element'>Binghamton University, State University of New York - Graduate School of Computer Science</li>
+					<ul id = 'education-list-inner'>
+						<li>Masters of Science in Computer Science</li>
+					</ul>
+			</ul>
+		</div>
+		<div class = column style="right: 10px">
+			<ul class = 'dates' style="margin: 0">
+				<li>June 2012</li>
+				<li>May 2016</li>
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+				<li id = 'may-date-edu'>Expected May 2018</li>
+			</ul>
+		</div>
+	</div>
+
+
+	
+</body>
+
+
+</html>

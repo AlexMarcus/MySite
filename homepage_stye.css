@@ -1,0 +1,142 @@
+body{
+	background-color: #307D7E;
+}
+
+#info{
+	text-align: center;
+	padding: 0px 10px;
+}
+.header-container{
+	border-radius: 7px;
+	width: 95%;
+	margin: 10px auto;
+	background-color: #3BB9FF;
+	position: relative;
+	padding: 20px 0;
+}
+
+.header-links{
+	margin: 5px 10px;
+	padding: 0 5px;
+	font-size: 20px;
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 7px;
+}
+
+#header-image{
+	width: 13%;
+	height: width;
+	position: absolute;
+	left: 30px;
+	top: 25px;
+}
+
+.title{
+	margin: 0px 0 5px 0;
+}
+
+.container{
+	width: 95%;
+	border-radius: 7px;
+	background-color: #3BB9FF;
+	position: relative;
+	margin: 10px auto;
+	padding: 20px 0;
+}
+
+.column{
+/*	border: 3px solid black;
+	border-radius: 7px; */
+	position: absolute;
+
+}
+
+.contact{
+	 height: 150px;
+}
+
+.contact-list li{
+	padding: 12px;
+}
+
+.contact-list{
+	list-style-type: none; 
+	text-align: center; 
+	padding: 0;
+	margin: 0;
+	font-size: 18px
+}
+
+#education{
+	 height: 180px;
+}
+
+#education-list{
+	list-style-type: none;
+}
+
+#education-list-element{
+	font-size: 18px;
+	padding: 5px;
+}
+
+#education-list-inner li{
+	padding: 0 0 0 0;
+}
+
+.dates li{
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
+	font-size: 18px;
+	text-align: right;
+}
+
+#may-date-edu{
+	 padding-top: 21px;
+}
+
+@media (max-width: 935px){
+	.dates li{
+		font-size: 14px;
+	}
+
+	#may-date-edu{
+		padding-top: 13px;
+	}
+	
+	#education-list-element{
+		font-size: 14px;
+		padding: 5px;
+	}
+	#education-list-inner li{
+		padding: 0 0 0 0;
+		font-size: 12px;
+	}
+
+	#education{
+		height: 160px;
+	}
+}
+
+@media (max-width: 780px){
+	#may-date-edu{
+		padding-top: 30px;
+	}
+}
+
+@media (max-width: 600px){
+	#header-image{
+		display: none;
+	}
+}
+
+
+@media (min-width: 1320px){
+	#header-image{
+		width: 160px;
+		height: width;
+	}
+}
