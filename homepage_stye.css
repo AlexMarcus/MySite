@@ -1,5 +1,5 @@
 body{
-	background-color: #307D7E;
+	background-color: #2B65EC;
 }
 
 #info{
@@ -10,7 +10,8 @@ body{
 	border-radius: 7px;
 	width: 95%;
 	margin: 10px auto;
-	background-color: #3BB9FF;
+	background-color: rgba(59, 185, 255, 1);
+	/*background-color: #3BB9FF;*/
 	position: relative;
 	padding: 20px 0;
 }
