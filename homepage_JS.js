@@ -8,6 +8,9 @@ $(document).ready(function() {
 });
 
 
+
+
+
 $(document).ready(function() {
 	$("#edu-scroll").click(function() {
     	$('html, body').animate({
