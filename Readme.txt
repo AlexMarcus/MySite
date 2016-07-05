@@ -1,7 +1,6 @@
 README:
 
 This is my website with all files needed to make it work...
-PRACTICE
 
 Done:
 -Create Homepage
