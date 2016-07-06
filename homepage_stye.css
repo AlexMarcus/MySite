@@ -36,6 +36,7 @@ body{
 
 .title{
 	margin: 0px 0 5px 0;
+	text-align: center;
 }
 
 .container{
@@ -49,7 +50,7 @@ body{
 
 .column{
 	border: 3px solid black;
-	border-radius: 7px;
+	border-radius: 7px; 
 	position: absolute;
 
 }
@@ -110,12 +111,20 @@ body{
 	 padding-top: 20px;
 }
 
-.we-element{
+.bold-list-element{
 	 font-weight: bold;
 }
 
 #edm-date{
 	padding-top: 107px;
+}
+
+#highland-date{
+	padding-top: 56px;
+}
+
+#ama-date{
+	padding-top: 56px;
 }
 
 @media (max-width: 935px){
@@ -142,6 +151,13 @@ body{
 
 	#edm-date{
 		padding-top: 89px;
+	}
+
+	#highland-date{
+		padding-top: 47px;
+	}
+	#ama-date{
+		padding-top: 46px;
 	}
 }
 
