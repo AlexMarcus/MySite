@@ -37,6 +37,8 @@ body{
 .title{
 	margin: 0px 0 5px 0;
 	text-align: center;
+
+	
 }
 
 .container{
@@ -127,7 +129,7 @@ body{
 	padding-top: 56px;
 }
 
-@media (max-width: 935px){
+@media (max-width: 980px){
 	.dates li{
 		font-size: 14px;
 	}
