@@ -51,9 +51,10 @@ body{
 
 .column{
 	border: 3px solid black;
-	border-radius: 7px; 
-	position: absolute;
-
+	border-radius: 7px;
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
 }
 
 .contact{
@@ -72,71 +73,34 @@ body{
 	font-size: 18px
 }
 
-#education{
-	 height: 180px;
+.textalign-left{
+	margin: 5px 0;
+	float: left;
 }
 
-#left-column{
-	 left: -20px;
-	  width: 90%;
+.textalign-right{
+	margin: 5px 0;
+	float: right;
 }
 
-#right-column{
-	 right: 10px;
-}
-
-#list{
-	list-style-type: none;
-	margin:0;
-}
-
-#list li{
+#list p{
 	font-size: 18px;
-	padding: 5px;
+}
+
+#list-inner{
+	margin: 0;
 }
 
 #list-inner li{
 	padding: 0 0 0 0;
-	font-size: 14px;
-}
-
-.dates li{
-	margin: 0;
-	padding: 5px;
-	list-style-type: none;
-	font-size: 18px;
-	text-align: right;
-}
-
-#may-date-edu{
-	 padding-top: 20px;
+	font-size: 16px;
 }
 
 .bold-list-element{
 	 font-weight: bold;
 }
 
-#edm-date{
-	padding-top: 107px;
-}
-
-#highland-date{
-	padding-top: 56px;
-}
-
-#ama-date{
-	padding-top: 56px;
-}
-
 @media (max-width: 980px){
-	.dates li{
-		font-size: 14px;
-	}
-
-	#may-date-edu{
-		padding-top: 13px;
-	}
-	
 	#list li{
 		font-size: 14px;
 		padding: 5px;
@@ -145,41 +109,16 @@ body{
 		padding: 0 0 0 0;
 		font-size: 12px;
 	}
-
-	#education{
-		height: 180px;
-	}
-
-	#edm-date{
-		padding-top: 89px;
-	}
-
-	#highland-date{
-		padding-top: 47px;
-	}
-	#ama-date{
-		padding-top: 46px;
-	}
 }
 
-@media (max-width: 780px){
-	#may-date-edu{
-		padding-top: 30px;
-	}
-}
-
-@media (max-width: 750px){
+@media (max-width: 875px){
 	#header-image{
 		display: none;
 	}
-	#right-column{
+	.textalign-right{
 		display: none;
 	}
-	#left-column{
-		position: relative;
-		margin: 0 auto;
-		left:-20px;
-	}
+
 }
 
 
