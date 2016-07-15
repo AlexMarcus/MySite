@@ -1,0 +1,16 @@
+body{
+	background-color: black;
+}
+
+.text{
+	text-align: center;
+	margin: 20px;
+}
+.drill{
+	display: block;
+	margin: 10px auto;
+	align: middle;
+	height: 500px;
+	width: 1.33969466*height;
+	border-radius: 10px;
+}

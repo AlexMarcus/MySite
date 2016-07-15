@@ -20,4 +20,11 @@ $(document).ready(function() {
     	}, 1000);
 	});
 });
+$(document).ready(function() {
+	$("#proj-scroll").click(function() {
+    	$('html, body').animate({
+        	scrollTop: $("#projects").offset().top
+    	}, 1000);
+	});
+});
 -->
