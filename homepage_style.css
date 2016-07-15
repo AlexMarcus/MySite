@@ -1,0 +1,135 @@
+body{
+	background-color: black;
+}
+
+#info{
+	text-align: center;
+	padding: 0px 10px;
+}
+.header-container{
+	border-radius: 7px;
+	width: 95%;
+	margin: 10px auto;
+	background-color: rgba(59, 185, 255, 1);
+	/*background-color: #3BB9FF;*/
+	position: relative;
+	padding: 20px 0;
+}
+
+.header-links{
+	margin: 5px 10px;
+	padding: 0 5px;
+	font-size: 20px;
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 7px;
+}
+
+#header-image{
+	width: 13%;
+	height: width;
+	position: absolute;
+	left: 30px;
+	top: 25px;
+}
+
+.title{
+	margin: 0px 0 5px 0;
+	text-align: center;
+
+}
+
+.container{
+	width: 95%;
+	border-radius: 7px;
+	background-color: #3BB9FF;
+	position: relative;
+	margin: 10px auto;
+	padding: 20px 0;
+}
+
+.column{
+	/*border: 3px solid black;
+	border-radius: 7px;*/
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.contact{
+	 height: 150px;
+}
+
+.contact-list li{
+	padding: 12px;
+}
+
+.contact-list{
+	list-style-type: none; 
+	text-align: center; 
+	padding: 0;
+	margin: 0;
+	font-size: 18px
+}
+
+.textalign-left{
+	float: left;
+}
+
+.textalign-right{
+	margin: 5px 0 0 0;
+	float: right;
+}
+
+#list p{
+	font-size: 18px;
+}
+
+#list-inner{
+	margin: 0;
+}
+
+#list-inner li{
+	padding: 0 0 0 0;
+	font-size: 16px;
+}
+
+.bold-list-element{
+	margin: 5px 0 0 0;
+	font-weight: bold;
+}
+
+.position{
+	margin: 0;
+	padding: 0 5px 0 0;
+}
+
+@media (max-width: 980px){
+	#list p{
+		font-size: 16px;
+		padding:  0 0 0 5px ;
+	}
+	#list-inner li{
+		padding: 0 0 0 0;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 875px){
+	#header-image{
+		display: none;
+	}
+	.textalign-right{
+		display: none;
+	}
+
+}
+
+
+@media (min-width: 1320px){
+	#header-image{
+		width: 160px;
+		height: width;
+	}
+}
