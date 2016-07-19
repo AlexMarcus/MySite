@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<title>Linear Regression</title>
+
+<link rel="stylesheet" type="text/css" href="linearReg_style.css">
+
+<script src="reg.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<h1 style = "color: white; text-align: center;"> Linear Regression</h1>
+	<div class = "container">
+		<canvas id = 'regCanvas' width = "650" height= "650"></canvas>
+		<div id = "cont" style="position: absolute; left: 700px; top: 25px;">
+			<p style="margin: 0"><button class = "button" onclick="plot()">Plot</button>
+			<button class = "button" onclick="addCoord()">Add Point</button></p>
+			<div id = "orderedPair1" class = "coords">
+			X:<input class = "coord" type="text" size = "5"> Y:<input class = "coord" type="text" size = "5">
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>	

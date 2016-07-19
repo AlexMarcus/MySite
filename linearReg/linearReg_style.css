@@ -1,0 +1,32 @@
+body{
+	background-color: black;
+}
+
+#regCanvas{
+	background-color: #D1D0CE;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+
+.container{
+	border-radius: 7px;
+	background-color: #3BB9FF;
+	position: relative;
+	margin: 30px;
+	height: 700px;
+}
+
+.coord{
+	margin: 5px;
+}
+
+.button{
+	margin: 2px 2px;
+}
+
+@media (max-width: 1000px){
+	.container{
+		width: 925px;
+	}
+}
